@@ -43,6 +43,8 @@ app.get('/manage/index.html',controller.manage);
 app.get('/manage/15.html',controller.manage);
 app.get('/manage/16.html',controller.manage);
 
+app.get('/news/index.html',controller.news);
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
