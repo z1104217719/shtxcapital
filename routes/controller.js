@@ -52,6 +52,13 @@ exports.manage = function(req,res){
             }
         );
     }
+}
 
-
+exports.news = function(req,res){
+    res.render('news/index',
+        { title: 'Express',
+            layout:'layout',
+            staticPath:'../'
+        }
+    );
 }
