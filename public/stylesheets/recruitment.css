@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.hy_main_right .hy_right_left .bg_none{
+    background:none;
+}
+.hy_main_right .hy_right_left{
+    width:719px;
+    margin-bottom:20px;
+}
+.executives_dlColor, .executives_dl{
+    height:126px;
+    padding:15px 0;
+}
+.executives_dl{
+    background:url(../images/about_bg.gif) repeat-x left top;
+}
+.executives_dlColor{
+    background:url(../images/about_bg.gif) repeat-x left top #f5f7fb;
+}
+.executives_dl dd img, .executives_dlColor dd img{
+    width:85px;
+    height:112px;
+    padding:1px;
+    border:4px solid #e5e6e8;
+    margin:0;
+    float:left;
+    margin-right:10px;
+}
+.executives_dl dt, .executives_dlColor dt{
+    font-weight:bold;
+}
+.executives_dl dd, .executives_dlColor dd{
+    text-indent:2em;
+}
+.executives_dl dd p, .executives_dlColor dd p{
+    height:92px;
+    overflow:hidden;
+}
+.executives_dl dd span, .executives_dlColor dd span{
+    display:block;
+    text-align:right;
+    line-height:18px;
+    margin-right:5px;
+}
+.line_executives{
+    background:#364e7c;
+    overflow:hidden;
+    height:4px;
+    text-indent:-5000px;
+    margin-top:10px;
+}
+.executives_title{
+    background:url(../images/recruitment_bg.gif) repeat-x;
+    overflow:hidden;
+    height:20px;
+    float:right;
+    margin:10px 0;
+    padding:5px;
+    border:1px solid #ccc;
+    margin-right:10px;
+}
+.recruitment_p{
+    background:url(../images/about_bg.gif) repeat-x left top;
+    padding:10px 0;
+}
+

@@ -1,9 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+<LINK media=all href="../stylesheets/about.css" type=text/css rel=stylesheet>
+<DIV class=hy_top>
+    <% include ../header.html %>
+</DIV>
+<div class="hy_main">
+    <div class="hy_main_left left">
+        <ul>
+            <li><a href="/about/index.html">天厦介绍</a></li>
+            <li><a href="/about/ceo.html">董事长寄语</a></li>
+            <li><a href="/about/core.html">核心能力</a></li>
+            <li><a class="facing" href="/about/domain.html">业务领域</a></li>
+            <li><a href="/about/idea.html">投资理念</a></li>
+            <li><a href="/about/org.html">分支机构</a></li>
+        </ul>
+    </div>			<div class="hy_main_right left">
+    <!--左边内容开始-->
+    <div class="hy_right_left left">
+        <div class="main_banner">
+            <a href="/index.html" class="gray">首页</a>  &gt;
+            业务领域
+        </div>
+        <img src="/images/pic_03yewulingyu.gif" />
+        <p class="about_main" style="border-bottom: 0px;">
+            天厦资产关注规模较大、成长空间广阔的行业。<br>
 
-</body>
-</html>
+            天厦目前已投资进入的行业包括：<br>
+            房地产、金融服务、导航设备、新能源、新材料、商业连锁、文化传媒；除此以外，弘毅还特别希望将投资业务拓展到医疗服务、教育服务、矿产资源等行业。</p>
+
+    </div>
+    <!--左边内容结束-->
+    <!--右边内容开始-->
+    <% include /right.html %>
+    <% include ../footer.html %>
+</div>
+</div>
+
+<SCRIPT language=JavaScript>
+    $$(".hy_about a").addClass("a-hover");
+</SCRIPT>

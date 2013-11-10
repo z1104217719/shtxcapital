@@ -1,9 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+<LINK media=all href="../stylesheets/news.css" type=text/css rel=stylesheet>
+<DIV class=hy_top>
+    <% include ../header.html %>
+</DIV>
+<div class="hy_main">
+    <div class="hy_main_left left">
+        <ul>
+            <li><a  href="/news/private.html">天厦资讯</a></li>
+            <li><a class="facing" href="/news/industry.html">行业资讯 </a></li>
+        </ul>
+    </div>			<div class="hy_main_right left">
+    <!--左边内容开始-->
+    <div class="hy_right_left left">
+        <div class="main_banner">
+            <a href="/index.html" class="gray">首页</a>  &gt;
+            <a href="/news/index.html" class="gray">新闻资讯</a>  &gt;
+            行业资讯
+        </div>
+        <img src="/images/news_industry.gif">
+        <!--					  <h2>弘毅资讯</h2>-->
+        <form method="post" action="" style="text-align:right;">
+            <select name="" value="" onchange="search_year(this.value);" id="news_year">
+                <option value="0">全部</option>
+                <option value="2013">2013</option>
+            </select>
+        </form>
+        <script>
+            function search_year(year){
+                window.location.href	=	'/news/industry.html';
+            }
+        </script>
+        <dl class="no_border">
+            <dt>·<a class="gray" href="/news/28/one/428.html">弘毅投资携手SMG 首度涉足影视业</a></dt>
+            <dd>2013-06-13</dd>
+            <dt class="dt_color">·<a class="gray" href="/news/28/one/427.html">PE巨头弘毅投资联姻SMG发起30亿元影视专项基金</a></dt>
+            <dd class="dt_color">2013-06-12</dd>
+            <dt>·<a class="gray" href="/news/28/one/426.html">专家称未来十年中美贸易不平衡局面将明显改善</a></dt>
+            <dd>2013-05-23</dd>
+            <dt class="dt_color">·<a class="gray" href="/news/28/one/424.html">赵令欢：无须抗周期</a></dt>
+            <dd class="dt_color">2013-04-08</dd>
+            <dt>·<a class="gray" href="/news/28/one/425.html">博鳌亚洲论坛投资人圆桌会议分论坛会议文字实录</a></dt>
+            <dd>2013-04-07</dd>
+            <dt class="dt_color">·<a class="gray" href="/news/28/one/422.html">弘毅投资总裁赵令欢：中国PE市场是沃土也疯狂</a></dt>
+            <dd class="dt_color">2013-03-25</dd>
+            <dt>·<a class="gray" href="/news/28/one/423.html">赵令欢：中国金融体系的改革开放将会加速</a></dt>
+            <dd>2013-03-23</dd>
+            <dt class="dt_color">·<a class="gray" href="/news/28/one/421.html">赵令欢：全球都面临“改制” 20130125</a></dt>
+            <dd class="dt_color">2013-02-01</dd>
+            <dt>·<a class="gray" href="/news/28/one/420.html">赵令欢：改革不仅是中国的也是全球的出路 20130125</a></dt>
+            <dd>2013-02-01</dd>
+            <dt class="dt_color">·<a class="gray" href="/news/28/one/419.html">赵令欢：经济复苏投资反而需谨慎</a></dt>
+            <dd class="dt_color">2013-02-01</dd>
+        </dl>
+        <div class="investment-foot">
+            <a href="/news/industry.html" class="spacing">1</a>
+            <!--<a class="gray_ccc" href="/news/industry/1.html">1</a>-->
+        </div>
+    </div>
+    <!--右边内容开始-->
+    <% include ../contact/contact.html %>
+    <% include ../footer.html %>
+</div>
+</div>
+<script>
+    $$(".hy_news a").addClass("a-hover");
+</script>
