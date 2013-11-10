@@ -62,12 +62,16 @@ app.get('/invest/zztxjiali.html',controller.invest);
 app.get('/invest/hzlanhua.html',controller.invest);
 
 app.get('/manage/index.html',controller.manage);
-app.get('/manage/15.html',controller.manage);
-app.get('/manage/16.html',controller.manage);
+
+app.get('/manage/tianxia_one.html',controller.manage);
 
 app.get('/news/index.html',controller.news);
 app.get('/news/private.html',controller.news);
 app.get('/news/industry.html',controller.news);
+
+app.get('/news/static/1.html',controller.newsStatic);
+app.get('/news/static/2.html',controller.newsStatic);
+app.get('/news/static/3.html',controller.newsStatic);
 
 app.get('/contact/index.html',controller.contact);
 
